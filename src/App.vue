@@ -24,8 +24,8 @@
         fullStyle: [
           `/*
 * Inspired by http://strml.net/
-* 大家好，我是方方
-* 二月了，好多公司都在招聘，你是不是也在准备简历呀。
+* 大家好，我是five
+* 二月了，好多公司都在招聘，要开始准备简历了呀。
 * 说做就做，我也来写一份简历！
 */
 
@@ -35,7 +35,8 @@
 }
 /* 白色背景太单调了，我们来点背景 */
 html {
-  color: rgb(222,222,222); background: rgb(0,43,54);
+  color: black;
+  background: lightyellow;
 }
 /* 文字离边框太近了 */
 .styleEditor {
@@ -46,22 +47,10 @@ html {
   width: 45vw; height: 90vh;
 }
 /* 代码高亮 */
-.token.selector{ color: rgb(133,153,0); }
-.token.property{ color: rgb(187,137,0); }
-.token.punctuation{ color: yellow; }
-.token.function{ color: rgb(42,161,152); }
-
-/* 加点 3D 效果呗 */
-html{
-  perspective: 1000px;
-}
-.styleEditor {
-  position: fixed; left: 0; top: 0;
-  -webkit-transition: none;
-  transition: none;
-  -webkit-transform: rotateY(10deg) translateZ(-100px) ;
-          transform: rotateY(10deg) translateZ(-100px) ;
-}
+.token.selector{ color: blue; }
+.token.property{ color: black; }
+.token.punctuation{ color: red; }
+.token.function{ color: black; }
 
 /* 接下来我给自己准备一个编辑器 */
 .resumeEditor{
@@ -115,34 +104,23 @@ html{
 }
 `],
         currentMarkdown: '',
-        fullMarkdown: `方应杭
+        fullMarkdown: `SleepyFive
 ----
 
-资深前端工程师，资深前端讲师，现在在 [饥人谷](http://jirengu.com) 教前端课程。
+目前是一名卑微的学生，在某不知名学校混日子
 
 技能
 ----
 
-* 前端开发
-* Rails 开发
-* Node.js 开发
-* 前端授课
+* 摸鱼
+* 吹逼
+* 睡懒觉
+* 混日子
 
-工作经历
+项目经历
 ----
 
-1. [饥人谷](http://jirengu.com)
-2. 腾讯即时通讯平台部
-3. 阿里巴巴B2B部门
-4. 彩程知人项目组
-
-链接
-----
-
-* [GitHub](https://github.com/frankfang)
-* [我的文章](https://www.zhihu.com/people/zhihusucks/pins/posts)
-
-> 如果你喜欢这个效果，Fork [我的项目](https://github.com/jirengu-inc/animating-resume)，打造你自己的简历！
+无
 
 `
       }
